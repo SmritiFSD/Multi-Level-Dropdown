@@ -1,0 +1,73 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Muli&display=swap"); */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap');
+*{
+  font-family: 'IBM Plex Serif', serif;
+}
+.App {
+  text-align: center;
+}
+.hv-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.texttitle{
+  text-align: center;
+  margin-top: 5%;
+  
+}
+.black{
+  background-color: black;
+}
+.white-text{
+  color:white;
+}
+.btn-danger{
+  margin-right:10px !important;
+}
+.paper {
+  margin-top: theme-spacing(8);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.avatar {
+  margin: theme-spacing(1);
+  background-color: theme-palette-secondary-main;
+}
+.form {
+  width: "100%"; 
+  margin-top: theme-spacing(1);
+}
+.submit {
+  margin: theme-spacing(3, 0, 2);
+}
+.select-boxes{
+  width: 280px;
+  text-align: center;
+  margin: 0 auto;
+}
+.select{
+  background-color: #grey;
+  border: 2px double #000;
+  color: #000;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 14px;
+  height: 39px;
+  padding: 7px 8px;
+  width: 250px;
+  outline: none;
+  margin: 10px 0 10px 0;
+}
+select option{
+  font-family: Georgia;
+  font-size: 14px;
+}
+ul,li{
+  list-style: none;
+}
+.menu{
+  text-decoration-skip-ink: none;
+
+}

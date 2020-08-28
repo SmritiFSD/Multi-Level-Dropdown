@@ -1,0 +1,23 @@
+
+.select-boxes {
+  width: 280px;
+  text-align: center;
+  margin: 0 auto;
+}
+select {
+  background-color: #grey;
+  border: 2px double #000;
+  color: #000;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 14px;
+  height: 39px;
+  padding: 7px 8px;
+  width: 250px;
+  outline: none;
+  margin: 10px 0 10px 0;
+}
+select option {
+  font-family: Georgia;
+  font-size: 14px;
+}

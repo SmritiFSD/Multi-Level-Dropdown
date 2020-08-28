@@ -1,0 +1,25 @@
+id   parent-id  category-name
+1       0         parent-category-1
+2       0         parent-category-2
+3       1         sub-category-1
+9       3            456
+4       1         sub-category-2
+5       2         sub-sub-category-1
+6       0         xyz
+7       6         abc
+8       7            123
+
+
+please select category:-
+    parent
+    parent-category-1
+        sub-category-1
+            456
+        sub-category-2
+    parent-category-2
+        sub-sub-category-1
+    xyz
+        abc
+            123
+
+
